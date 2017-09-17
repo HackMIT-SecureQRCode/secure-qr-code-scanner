@@ -23,21 +23,24 @@ export default class Scanner extends React.Component {
     }
     onDecode(encrypted) {
         getPublicKey("John", (response) => {
+            console.log(response);
             AsyncStorage.getItem("@RSAKeyStore:private_key", (err, result) => {
+                rsa = new RSAKey();
+                rsa.setPublicString(response.data.public);
                 rsa.setPrivateString(result);
-                const decrypted = rsa.decrypted(encrypted);
+                const decrypted = rsa.decrypt(encrypted);
+                AlertIOS.alert(
+                    "QR Found",
+                    decrypted,
+                    () => {this.setState({isShowingAlert: false})}
+                );
             });
         });
     }
     onBarCodeRead(barcode) {
         if(!this.state.isShowingAlert) {
-            AlertIOS.alert(
-                "QR Found",
-                barcode.data,
-                () => {this.setState({isShowingAlert: false})}
-            );
+            this.onDecode(barcode.data);
             this.setState({isShowingAlert: true});
-
         }
 
     }
