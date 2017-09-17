@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTTextFieldManager.m \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTTextFieldManager.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTShadowTextField.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTTextField.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h \
+  /Users/ajay/Documents/Code/secure-qr-code-scanner/node_modules/react-native/Libraries/Text/RCTUITextField.h

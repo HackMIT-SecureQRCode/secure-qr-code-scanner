@@ -16,7 +16,6 @@ export default class Scanner extends React.Component {
     onDecode(encrypted) {
         getPublicKey("John", (response) => {
             AsyncStorage.getItem("@RSAKeyStore:private_key", (err, result) => {
-                const rsa = new RSAKey();                
                 rsa.setPrivateString(result);
                 const decrypted = rsa.decrypted(encrypted);
             });
