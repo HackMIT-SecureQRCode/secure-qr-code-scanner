@@ -3,10 +3,11 @@ import {
   AppRegistry,
   Text,
   View,
-  Button
+  Button,
+  AsyncStorage
 } from 'react-native';
 import {getPublicKey} from './api';
-import RSAKey from 'react-native-rsa';
+const RSAKey = require('react-native-rsa');
 
 export default class Scanner extends React.Component {
     static navigationOptions = {
@@ -14,11 +15,11 @@ export default class Scanner extends React.Component {
     };
     onDecode(encrypted) {
         getPublicKey("John", (response) => {
-            const rsa = new RSAKey();
-            rsa.setPublicString(response.public);
-            rsa.setPrivateString(/* get private string */);
-            const decrypted = rsa.decrypted(encrypted);
-            console.log(response);
+            AsyncStorage.getItem("@RSAKeyStore:private_key", (err, result) => {
+                const rsa = new RSAKey();                
+                rsa.setPrivateString(result);
+                const decrypted = rsa.decrypted(encrypted);
+            });
         });
     }
     render() {

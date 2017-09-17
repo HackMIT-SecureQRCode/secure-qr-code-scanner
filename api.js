@@ -18,6 +18,7 @@ const createEncryption = (user_id, text, cb) => {
         text: text
     })
     .then((response) => {
+        console.log(response);
         cb(response);
     })
     .catch((error) => {

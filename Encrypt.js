@@ -21,10 +21,9 @@ export default class Encrypt extends React.Component {
     }
     onEncrypt() {
         createEncryption("John", this.state.text, (response) => {
-            const encrypted_message = response.text
-
+            const encrypted_message = response.data.text
             // obviously insecure, use a keychain system irl
-            AsyncStorage.setItem("@RSAKeyStore:private_key", response.key);
+            AsyncStorage.setItem("@RSAKeyStore:private_key", response.data.key);
 
             this.setState({cypher_text: encrypted_message});
         });
