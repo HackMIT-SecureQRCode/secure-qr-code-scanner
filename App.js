@@ -1,23 +1,16 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  AppRegistry,
+  Text,
+} from 'react-native';
+import { StackNavigator } from 'react-navigation';
+import  Scanner from './Scanner.js';
+import Encrypt from './Encrypt.js';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+export default App = StackNavigator({
+  Home: { screen: Scanner },
+  Encrypt: { screen: Encrypt }
 });
+
+// if you are using create-react-native-app you don't need this line
+AppRegistry.registerComponent('App', () => App);
